@@ -33,6 +33,27 @@ Cada brinquedo tem um nome, uma imagem, um número de telefone do WhatsApp para 
 
 Esse arquivo JSON é útil para armazenar e organizar informações sobre brinquedos em diferentes categorias, tornando-o adequado para a criação de um catálogo de brinquedos em uma aplicação web, permitindo aos usuários visualizar detalhes e posteriormente entrar em contato com os proprietários via WhatsApp, através como exemplo: https://api.whatsapp.com/send?phone=55319999999999&text=Ol%C3%A1%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20brinquedo:%20ThunderCats
 
+## favicon.ico
+
+favicon é um pequeno ícone ou imagem que é associado a um site e exibido na barra de guias (abas) do navegador, na lista de favoritos e nos resultados de pesquisa. É uma parte importante da identidade visual de um site e ajuda os visitantes a identificar e lembrar de uma página da web.
+
+Foi gerado um ícone da imagem através do site: https://www.favicon-generator.org/
+
+A utilização do favicon.ico envolve a adição de dois elementos <b>link</b> no cabeçalho HTML da página.
+
+```html
+<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+<link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+```
+
+- <b><i>link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon"</i>:</b> Este elemento define o ícone que é exibido na barra de guias (ou abas) do navegador quando o usuário visita a página. É conhecido como o "favicon padrão". Através do atributo "href," você especifica o caminho para o arquivo favicon.ico.
+
+- <b><i>link rel="icon" href="icons/favicon.ico" type="image/x-icon"</i>:</b> Este elemento é semelhante ao primeiro, mas é usado para garantir a compatibilidade com navegadores mais antigos que podem não reconhecer o elemento <b>link</b> "shortcut icon." É uma redundância que ajuda a garantir que o favicon seja exibido corretamente em uma ampla variedade de navegadores.
+
+O atributo <b>type</b> define o tipo de arquivo, que é "image/x-icon" para arquivos favicon.ico.
+
+A utilização de favicons é importante porque eles ajudam na identificação visual de um site e melhoram a experiência do usuário. Quando os visitantes têm várias guias abertas no navegador, o favicon ajuda a diferenciar e identificar rapidamente cada uma delas. Além disso, quando os usuários adicionam um site aos favoritos, o favicon geralmente é exibido junto ao título do site, tornando-o facilmente reconhecível na lista de favoritos. Portanto, a adição de favicons é uma prática comum para melhorar a usabilidade e a marcação de um site na web.
+
 ## Lighthouse
 
 É uma ferramenta de código aberto desenvolvida pelo Google que é integrada ao navegador Google Chrome e serve para avaliar a qualidade e o desempenho de um site ou aplicativo da web. Ela fornece uma análise detalhada sobre diversos aspectos, incluindo desempenho, acessibilidade, boas práticas e SEO (otimização para mecanismos de busca). Aqui estão algumas das principais funções do LightHouse:
