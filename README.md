@@ -23,6 +23,20 @@ PWAs têm ganhado popularidade devido à sua capacidade de oferecer uma experiê
 
 # Informações
 
+## Ajax
+
+<b>Ajax (Asynchronous JavaScript and XML)</b> é uma abordagem na programação web que permite a comunicação assíncrona entre o navegador e um servidor web. Ela permite que os navegadores solicitem e recebam dados do servidor em segundo plano, sem precisar atualizar toda a página. Isso significa que os dados podem ser carregados e exibidos dinamicamente em partes específicas de uma página web sem a necessidade de recarregar a página inteira.
+
+Características principais do Ajax:
+
+- <b>Comunicação Assíncrona:</b> O Ajax permite que as solicitações sejam feitas ao servidor e as respostas sejam recebidas de forma assíncrona. Isso significa que o usuário pode continuar interagindo com a página enquanto os dados são carregados em segundo plano.
+- <b>Atualização de Conteúdo Dinâmico:</b> Com o Ajax, você pode atualizar partes específicas de uma página da web sem a necessidade de recarregar toda a página. Isso é útil para carregar novos dados, atualizar informações e interagir com o usuário sem interrupções.
+- <b>Interação com o Servidor:</b> O Ajax é comumente usado para fazer solicitações ao servidor para buscar ou enviar dados, geralmente usando XML ou, mais comumente hoje, JSON como formato de dados.
+- <b>JavaScript:</b> É geralmente implementado usando JavaScript e XMLHttpRequest ou a API Fetch no lado do cliente. No entanto, bibliotecas e frameworks como jQuery, Axios e o uso de APIs modernas, como o Fetch API, facilitam a implementação do Ajax.
+- <b>Uso em Aplicações Web Interativas:</b> O Ajax é amplamente utilizado em aplicativos web interativos, como redes sociais, e-mails, aplicativos de mensagens instantâneas, previsões de pesquisa automática e muito mais.
+
+O Ajax revolucionou a experiência do usuário na web, permitindo que páginas da web se tornassem mais dinâmicas e responsivas. Em vez de esperar que uma página inteira seja recarregada, os usuários podem ver atualizações e receber respostas imediatas, proporcionando uma experiência mais suave e interativa na web.
+
 ## dados.json
 
 O arquivo dados.json é um arquivo JSON que armazena informações sobre brinquedos em diversas categorias. Aqui está uma explicação mais concisa da estrutura:
