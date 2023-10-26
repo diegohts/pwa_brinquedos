@@ -45,7 +45,7 @@ O arquivo dados.json é um arquivo JSON que armazena informações sobre brinque
 Cada categoria possui um nome ("categoria") e uma lista de brinquedos dentro dela.
 Cada brinquedo tem um nome, uma imagem, um número de telefone do WhatsApp para contato e um preço.
 
-Esse arquivo JSON é útil para armazenar e organizar informações sobre brinquedos em diferentes categorias, tornando-o adequado para a criação de um catálogo de brinquedos em uma aplicação web, permitindo aos usuários visualizar detalhes e posteriormente entrar em contato com os proprietários via WhatsApp, através como exemplo: https://api.whatsapp.com/send?phone=55319999999999&text=Ol%C3%A1%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20brinquedo:%20ThunderCats
+Esse arquivo JSON é útil para armazenar e organizar informações sobre brinquedos em diferentes categorias, tornando-o adequado para a criação de um catálogo de brinquedos em uma aplicação web, permitindo aos usuários visualizar detalhes e posteriormente entrar em contato com os proprietários via WhatsApp, através do site que gera link para whatsaoo: https://zap.convertte.com.br/gerador-link-whatsapp/ que tem como exemplo: https://api.whatsapp.com/send?phone=55319999999999&text=Ol%C3%A1%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20brinquedo:%20ThunderCats
 
 ## favicon.ico
 
