@@ -49,7 +49,7 @@ Esse arquivo JSON é útil para armazenar e organizar informações sobre brinqu
 Os resultados são apresentados em uma interface amigável com uma pontuação geral e detalhes sobre os problemas encontrados. O LightHouse é amplamente usado por desenvolvedores e equipes de qualidade web para melhorar a qualidade e o desempenho de sites e aplicativos da web, além de garantir que eles atendam aos padrões de acessibilidade, boas práticas, SEO e PWA. Você pode acessar o LightHouse no Chrome DevTools, e também existem versões independentes disponíveis como uma extensão do navegador e uma ferramenta de linha de comando.
 
 <p align ="center">
-    <img alt="Imagem do App Manifest apresentado no navegador" title="Imagem do App Manifest apresentado no navegador" src="./imgs/manifest.png">
+    <img alt="Imagem do App Manifest apresentado no navegador" title="Imagem do App Manifest apresentado no navegador" src="./imgs/lighthouse.png">
 </p>
 
 ## manisfest.json
