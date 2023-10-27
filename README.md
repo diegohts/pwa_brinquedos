@@ -6,6 +6,7 @@
 
 - [PWA](#PWA)
 - [Informações](#Informações)
+- [Service Worker](#Informações)
 
 
 # PWA ou Progressive Web App
@@ -102,5 +103,20 @@ O manifest.json é importante porque permite que os PWAs ofereçam uma experiên
 <p align ="center">
     <img alt="Imagem do App Manifest apresentado no navegador" title="Imagem do App Manifest apresentado no navegador" src="./imgs/manifest.png">
 </p>
+
+## Service Worker
+
+Um Service Worker é um script em segundo plano (background) que é executado pelo navegador da web de forma assíncrona e separada da página da web principal. Ele é uma parte fundamental da tecnologia usada em Progressive Web Apps (PWAs) e oferece várias funcionalidades avançadas, como:
+
+- <b>Cache:</b> Service Workers podem armazenar em cache recursos, como arquivos HTML, CSS, JavaScript, imagens, etc. Isso permite que uma PWA funcione offline, carregando recursos armazenados localmente em vez de depender de uma conexão de rede.
+- <b>Notificações Push:</b> Eles permitem que as PWAs enviem notificações push aos usuários, mesmo quando o navegador não está ativo. Isso é útil para manter os usuários envolvidos e informados.
+- <b>Background Sync:</b> Os Service Workers podem sincronizar dados com o servidor, mesmo quando a página da web não está aberta, permitindo que os dados sejam atualizados em segundo plano.
+- <b>Gerenciamento de Recursos:</b> Eles oferecem controle preciso sobre o carregamento e o uso de recursos da web, permitindo um melhor desempenho e eficiência.
+- <b>Segurança:</b> Service Workers só podem ser registrados por páginas servidas via HTTPS, garantindo a segurança dos aplicativos PWA.
+- <b>Melhor Desempenho:</b> Como os Service Workers são independentes da página da web, eles podem executar operações em segundo plano, melhorando o desempenho geral da página.
+- <b>Reatividade:</b> Os Service Workers permitem que a PWA responda a eventos, como cliques em links ou notificações, mesmo quando a página não está ativa, fornecendo uma experiência de usuário mais reativa.
+- <b>Atualizações Automáticas:</b> Eles podem ser usados para atualizar automaticamente o conteúdo da PWA, garantindo que os usuários sempre tenham acesso à versão mais recente do aplicativo.
+
+Em resumo, um Service Worker é um componente essencial para a construção de PWAs, permitindo que esses aplicativos ofereçam uma experiência mais próxima de aplicativos nativos, com recursos como offline, notificações push e melhor desempenho. No entanto, eles também devem ser usados com cuidado, pois têm o potencial de afetar a experiência do usuário e a segurança, se não forem implementados corretamente.
 
 Made with 💜 by Diego Henrique 👋 [See my Linkedin](https://www.linkedin.com/in/diegohts/)
